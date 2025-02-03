@@ -41,17 +41,17 @@ li{
     display: inline;
     float: center;
     padding: 10px;
-    width: 100%;
     color: rgb(255, 255, 255);
     border-right: 2px solid rgb(255, 255, 255);
     border-left: 2px solid rgb(255, 255, 255);
+    width: 100%;
 }
 li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: large;
-    font-size: 25px;
     width: 100%;
+    font-size: 25px;
 }
 li a:hover{
     text-decoration: underline overline;
@@ -74,54 +74,73 @@ float: inline-end;
 }
 div.info 
 {
+display: inline-block;
+text-align: center;
+width: 100%;
+}
+div.IG 
+{
+display: inline-block;
+width: 33%;
+float: left;
+}
+div.DC 
+{
+display: inline-block;
+width: 33%;
+float: center;
+}
+div.Email 
+{
+display: inline-block;
+width: 33%;
+float: right;
+}
+div.Contact 
+{
+text-align: center;
+width: 100%;
+}
+div.Form 
+{
+display: inline-block;
+text-align: center;
+width: 100%;
+}
+:link {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+:link:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+form {
     display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+    background-color: transparent !important;
     border: 2px solid rgb(110, 110, 110);
-    border-radius: 15px;
-    float: left;
-    margin: 25px;
-    width: 45%;
-    text-align: justify;
+
 }
-div.Code 
-{
-    display: inline-block;
-    border: 2px solid rgb(110, 110, 110);
-    border-radius: 15px;
-    float: right;
-    margin: 25px;
-    width: 45%;
-    text-align: justify;
-}
-div.Plan 
-{
-    display: inline-block;
-    border: 2px solid rgb(110, 110, 110);
-    border-radius: 15px;
-    float: left;
-    margin: 25px;
-    width: 45%;
-    text-align: justify;
-}
-div.use 
-{
-    display: inline-block;
-    border: 2px solid rgb(110, 110, 110);
-    border-radius: 15px;
-    float: right;
-    margin: 25px;
-    width: 45%;
-    text-align: justify;
-}
-div.jafoto 
-{
-    display: inline-block;
-    border-radius: 15px;
-    float: left;
-    width: 45%;
-    padding-left: 5%;
-    text-align: justify;
-}
-img
-{
-    border-radius: 15px;
+input, select, textarea {
+    width: 25%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    color: black;
+    background-color: transparent;
+}   
+select {
+    width: 25%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    color: black;
+    background-color: transparent;
 }
