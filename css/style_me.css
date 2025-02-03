@@ -68,8 +68,62 @@ footer
 color: rgb(255, 255, 255);
 font-size: 5px;
 font-family: 'Arial';
+margin: 2%;
 align-content: end center;
 text-align: center;
 display: inline-block;
 float: inline-end;
+}
+div.info 
+{
+    display: inline-block;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 15px;
+    float: left;
+    margin: 25px;
+    width: 45%;
+    text-align: justify;
+}
+div.Code 
+{
+    display: inline-block;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 15px;
+    float: right;
+    margin: 25px;
+    width: 45%;
+    text-align: justify;
+}
+div.Plan 
+{
+    display: inline-block;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 15px;
+    float: left;
+    margin: 25px;
+    width: 45%;
+    text-align: justify;
+}
+div.use 
+{
+    display: inline-block;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 15px;
+    float: right;
+    margin: 25px;
+    width: 45%;
+    text-align: justify;
+}
+div.jafoto 
+{
+    display: inline-block;
+    border-radius: 15px;
+    float: left;
+    width: 45%;
+    padding-left: 5%;
+    text-align: justify;
+}
+img
+{
+    border-radius: 15px;
 }
