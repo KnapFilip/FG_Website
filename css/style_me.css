@@ -63,76 +63,10 @@ li a:hover{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
-div.uvod
-{
-    display: inline-block;
-    float: left;
-    border: 2px solid rgb(110, 110, 110);
-    border-radius: 15px;
-    margin: 25px;
-    width: 45%;
-    text-align: justify;
-}
-div.prace
- {
-    display: inline-block;
-    float: right;
-    border: 2px solid rgb(110, 110, 110);
-    border-radius: 15px;
-    margin: 25px;
-    width: 45%;
-    text-align: justify;
-}
-div.ja
- {
-    display: inline-block;
-    float: left;
-    border: 2px solid rgb(110, 110, 110);
-    border-radius: 15px;
-    margin: 25px;
-    width: 45%;
-    text-align: justify;
-}
-div.projects
- {
-    display: inline-block;
-    float: right;
-    border: 2px solid rgb(110, 110, 110);
-    border-radius: 15px;
-    margin: 25px;
-    width: 45%;
-    text-align: justify;
-}
-button.tlja
-{
-background-color: transparent;
-color: rgb(255, 255, 255);
-border: 2px solid rgb(110, 110, 110);
-font-size: large;
-border-radius: 15px;
-padding: 5px;
-cursor: pointer;
-display: inline-block;
-float: right;
-width: 100%;
-}
-button.tlprojects
-{
-background-color: transparent;
-color: rgb(255, 255, 255);
-border: 2px solid rgb(110, 110, 110);
-font-size: large;
-border-radius: 15px;
-padding: 5px;
-cursor: pointer;
-display: inline-block;
-float: right;
-width: 100%;
-}
 footer
 {
 color: rgb(255, 255, 255);
-font-size: 2px;
+font-size: 5px;
 font-family: 'Arial';
 align-content: end center;
 text-align: center;
