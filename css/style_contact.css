@@ -44,6 +44,7 @@ li{
     color: rgb(255, 255, 255);
     border-right: 2px solid rgb(255, 255, 255);
     border-left: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
     width: 100%;
 }
 li a{
@@ -107,13 +108,13 @@ width: 100%;
 }
 a:link {
     color: rgb(255, 255, 255);
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:link:visited {
     color: rgb(255, 255, 255);
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:active {
     color: rgb(255, 255, 255);
-    text-decoration: underline;
+    text-decoration: none;
 }
