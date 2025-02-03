@@ -40,7 +40,7 @@ p{
 li{
     display: inline;
     float: center;
-    padding: 10px;
+    padding: 15px;
     width: 100%;
     color: rgb(255, 255, 255);
     border-right: 2px solid rgb(255, 255, 255);
@@ -63,14 +63,12 @@ li a:hover{
 }
 footer
 {
-color: rgb(255, 255, 255);
-font-size: 5px;
-font-family: 'Arial';
-margin: 2%;
-align-content: end center;
-text-align: center;
-display: inline-block;
-float: inline-end;
+    color: rgb(255, 255, 255);
+    font-size: 2px;
+    font-family: 'Arial';
+    float: inline-end;
+    text-align: center;
+    width: 100%;
 }
 div.info 
 {

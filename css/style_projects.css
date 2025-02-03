@@ -69,51 +69,32 @@ footer
     float: inline-end;
     text-align: center;
     width: 100%;
+    margin: 2%;
 }
-div.info 
+div.Web_Knap
 {
-display: inline-block;
-text-align: center;
-width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
 }
-div.IG 
+div.Web_LE
 {
-display: inline-block;
-width: 33%;
-float: left;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
 }
-div.DC 
+div.G_GC_Tabulky
 {
-display: inline-block;
-width: 33%;
-float: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
 }
-div.Email 
-{
-display: inline-block;
-width: 33%;
-float: right;
-}
-div.Contact 
-{
-text-align: center;
-width: 100%;
-}
-div.Form 
-{
-display: inline-block;
-text-align: center;
-width: 100%;
-}
-a:link {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-}
-a:link:visited {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-}
-a:active {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
+a{
+    color: rgb(87, 75, 255);
+    text-decoration: underline-;
+    width: 100%;
+    font-size: 20px;
 }
