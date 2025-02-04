@@ -93,12 +93,14 @@
             <label for="Other_contact">Další kontakt</label><br>
             <input type="text" id="Other_contact" name="Other_contact" required><br> 
             <label for="interest">O co máte zájem</label><br>
-            <select name="interest_select" id="interest_select"></select>
-                <option value="Web"></option>
-                <option value="Discord"></option>
-                <option value="Tabulky"></option>
+            <input type="checkbox" id="web" name="web" value="web">
+            <label for="web">Website</label><br>
+            <input type="checkbox" id="Discord" name="Discord" value="Discord">
+            <label for="Discord">Discord</label><br>
+            <input type="checkbox" id="Tabulky" name="Tabulky" value="Tabulky">
+            <label for="Tabulky">Tabulky</label><br>
             <label for="message">Další informace</label><br>
-            <textarea id="message" name="message" required></textarea><br>
+            <textarea id="message" name="message"></textarea><br>
             <input type="submit" value="Odeslat">
 
 

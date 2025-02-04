@@ -177,3 +177,36 @@ table
     border-right: 2px solid rgb(255, 255, 255);
     float: right;
 }
+input
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: transparent;
+}
+label
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+}
+select
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: transparent;
+}
+textarea
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: transparent;
+}
