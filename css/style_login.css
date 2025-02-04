@@ -69,20 +69,7 @@ footer
     width: 100%;
     margin: 2%;
 }
-div.registr_form
-{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 10px;
-    border: 2px solid rgb(255, 255, 255);
-    font-family: 'Arial';
-    border-radius: 15px;
-    display: inline-block;
-    width: 100%;
-    float: center;
-}
-div.login_form
+div.registr
 {
     background-color: rgb(56, 56, 56);
     color: rgb(255, 255, 255);
@@ -92,6 +79,41 @@ div.login_form
     font-family: 'Arial';
     border-radius: 15px;
     display: inline-block;
-    width: 100%;
+    width: 45%;
     float: center;
+}
+div.login
+{
+    background-color: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'Arial';
+    border-radius: 15px;
+    display: inline-block;
+    width: 45%;
+    float: right;
+}
+div.login_registr
+{
+
+}
+label
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+    margin: 15px;
+
+}
+ input
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+    margin: 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent
 }
