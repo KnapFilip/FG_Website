@@ -24,12 +24,33 @@
 <br>
 <br>
 <body>
-    <div class="Login_form"></div>
+    <div class="registr_form"></div>
+        <h2>Registrace</h2>
+        <form action="registr_script.php" method="post"></form>
+        <label for="name">Jméno a příjmení:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="date">Datum narození:</label><br>
+        <input type="date" id="date" name="date" required><br>
+        <label for="password">Heslo:</label><br>
+        <input type="password" id="password" name="password" required minlength="8"><br>
+        <label for="password">Opakujte heslo:</label><br>
+        <input type="password" id="password" name="password" required minlength="8"><br><br>
+        <input type="submit" value="Registrace">
+        </form>
+    </div>
+
+    <div class="login_form"></div>
+    <h2>Přihlášení</h2>
     <form action="login_script.php" method="post"></form>
-    <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username" required><br>
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="password">Heslo:</label><br>
+    <input type="password" id="password" name="password" required minlength="8"><br><br>
+    <input type="submit" value="Přihlásit se">
+    </form>
+</div>
 </body>
 <footer>
     <!--Odkazy na sociální sítě-->
