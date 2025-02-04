@@ -24,10 +24,10 @@
 <br>
 <br>
 <body>
-    <div class="login_registr">
-        <div class="registr">
+    <div class="login_register">
+        <div class="register">
             <h2>Registrace</h2>
-            <form action="registr_script.php" method="post" class="registr_form"></form>
+            <form action="Register.php" method="post" class="registr_form"></form>
             <label for="name">Jméno a příjmení:</label><br>
             <input type="text" id="name" name="name" required><br>
             <label for="email">Email:</label><br>
@@ -35,6 +35,7 @@
             <label for="date">Datum narození:</label><br>
             <input type="date" id="date" name="date" required><br>
             <label for="password">Heslo:</label><br>
+            <p>Délka minimálně 8 znaků</p>
             <input type="password" id="password" name="password" required minlength="8"><br>
             <label for="password">Opakujte heslo:</label><br>
             <input type="password" id="password" name="password" required minlength="8"><br><br>
@@ -44,7 +45,7 @@
     <br>
         <div class="login">
         <h2>Přihlášení</h2>
-        <form action="login_script.php" method="post" class="login_form"></form>
+        <form action="login.php" method="post" class="login_form"></form>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br>
         <label for="password">Heslo:</label><br>
