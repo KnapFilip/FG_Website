@@ -70,3 +70,24 @@ footer
     text-align: center;
     width: 100%;
 }
+div.Gallery1 
+{ 
+    width: 100%;
+    display: center;
+    float: center;
+    text-align: center;
+}
+div.Gallery2 
+{ 
+    width: 100%;
+    display: center;
+    float: center;
+    text-align: center;
+}
+div.Gallery3
+{ 
+    width: 100%;
+    display: center;
+    float: center;
+    text-align: center;
+}
