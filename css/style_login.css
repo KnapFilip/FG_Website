@@ -79,7 +79,7 @@ div.register
     font-family: 'Arial';
     border-radius: 15px;
     display: inline-block;
-    width: 45%;
+    width: 49%;
     float: left;
 }
 div.login
@@ -92,7 +92,7 @@ div.login
     font-family: 'Arial';
     border-radius: 15px;
     display: inline-block;
-    width: 45%;
+    width: 49%;
     float: right;
 }
 label
@@ -110,7 +110,7 @@ label
     font-family: 'Arial';
     margin: 15px;
     text-align: center;
-    width: 75%;
+    width: 50%;
     border-radius: 15px;
     border: 2px solid rgb(255, 255, 255);
     background-color: transparent
