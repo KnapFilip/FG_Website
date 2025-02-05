@@ -87,13 +87,13 @@ div.DC
 {
 display: inline-block;
 width: 33%;
-float: center;
+float: right;
 }
 div.Email 
 {
 display: inline-block;
 width: 33%;
-float: right;
+float: center;
 }
 div.Contact 
 {
@@ -106,15 +106,24 @@ display: inline-block;
 text-align: center;
 width: 100%;
 }
-a:link {
+a:link 
+{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-a:link:visited {
+a:link:visited 
+{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-a:active {
+a:active 
+{
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+button
+{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black
 }
