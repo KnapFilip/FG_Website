@@ -115,3 +115,12 @@ label
     border: 2px solid rgb(255, 255, 255);
     background-color: transparent
 }
+.TOS
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.req
+{
+    color: rgb(184, 0, 0);
+}
