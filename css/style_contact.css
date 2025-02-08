@@ -122,6 +122,43 @@ a:active
 button
 {
     background-color: transparent;
-    color: black;
-    border: 2px solid black
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 5px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 15px;
+}
+input
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: transparent;
+}
+label
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+}
+select
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: transparent;
+}
+textarea
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial';
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: transparent;
 }

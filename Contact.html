@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="images/logo.png">
     <link rel="stylesheet" href="css/style_contact.css">
-    <title>Filip Knap</title>
+    <title>Kontakt</title>
     <link rel="icon" type="image/png" href="images/logo_FG.png">
 </head>
 <header>
@@ -15,7 +15,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="Me.html">O mě</a></li>
             <li><a href="Projects.html">Projekty</a></li>
-            <li><a class="Active" href="Contact.html">Kontakt</a></li>
+            <li><a href="Contact.html">Kontakt</a></li>
             <li><a href="E-Shop.html">E-shop</a></li>
         </ul>
     </nav>
@@ -31,28 +31,51 @@
         <div class="IG">
             <h2>Instagram</h2>
             <p><a href="https://www.instagram.com/fida_knap/" target="_blank">Filip Knap</a></p>
-            <a href="https://www.instagram.com/fida_knap/"><img src="images/instagram.png" alt="instagram" style="width: 15%; height: 15%;" class="IG"></a>
+            <a href="https://www.instagram.com/fida_knap/"><img src="images/instagram.png" alt="instagram" style="width: 15%; height: 15%;" class="IG"></a><br><br>
+            <img src="images/ig_QR.png" alt="IG_QR" style="width: 40%; height: 40%;">
         </div>
         <div class="DC">
             <h2>Discord</h2>
-            <p style="color: white;"><a href="https://discord.gg/Msv22AUx3m" target="_blank">Filasgaming</a></p>
+            <p style="color: white;"><a href="https://discord.gg/Msv22AUx3m" target="_blank">Připojit se</a></p>
             <a href="https://discord.gg/Msv22AUx3m"><img src="images/discord.png" alt="discord" style="width: 15%; height: 15%;" class="DC"></a><br>
             <h3>Připoj se na náš discord</h3>
-            <button><a href="https://discord.gg/Msv22AUx3m">Připojit se</a></button><br>
+            <button><a href="https://discord.gg/Msv22AUx3m" style="color: rgb(255, 255, 255);">Připojit se</a></button><br>
             <br><iframe src="https://discord.com/widget?id=1335206985045512212&theme=dark" width="350" height="450" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
         <div class="Email">
             <h2>Email</h2>
             <p>Email: <a href="mailto:KnapFilip@email.cz">KnapFilip@email.cz</a><br>
                 Předmět: Objednávka
+                <h2>Kontaktní formulář</h2>
+        <form action="https://formsubmit.co/KnapFilip@email.cz" method="post" class="Contact">
+            <label for="Name">Jméno</label><br>
+            <input type="text" id="Name" name="Name" required><br>
+            <label for="Surname">Příjmení</label><br>
+            <input type="text" id="Surname" name="Surname" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="Email" name="Email" required><br>
+            <label for="Other_contact">Další kontakt</label><br>
+            <p style="color: white; font-size: 15px;">Pokud máte zájem o komunikaci přes něco jiného než email, zde můžete tento kontakt vypsat. Vždy zašlete i odkaz pokud možné. (Instagram, discord)</p>
+            <textarea type="text" id="Other_contact" name="Other_contact"></textarea><br> 
+            <label for="interest">O co máte zájem</label><br>
+            <input type="checkbox" id="web" name="web" value="web">
+            <label for="web">Website</label><br>
+            <input type="checkbox" id="Discord" name="Discord" value="Discord">
+            <label for="Discord">Discord</label><br>
+            <input type="checkbox" id="Tabulky" name="Tabulky" value="Tabulky">
+            <label for="Tabulky">Tabulky</label><br>
+            <label for="message">Další informace</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Odeslat" style="cursor: pointer;">
+        </form>
             </p>
         </div>
     </div>
 </body>
 <footer>
     <!--Odkazy na sociální sítě-->
-        <a href="https://www.instagram.com/fida_knap/" target="_blank"><img src="images/instagram.png" alt="instagram" style="width: 4%; height: 4%;" class="IG"></a>
-        <a href="https://discord.gg/Msv22AUx3m" target="_blank"><img src="images/discord.png" alt="discord" style="width: 5%; height: 7%;" class="DC"></a>
+        <a href="https://www.instagram.com/fida_knap/" target="_blank" style="padding: 10px;"><img src="images/instagram.png" alt="instagram" style="width: 4%; height: 4%;" class="IG"></a>
+        <a href="https://discord.gg/Msv22AUx3m" target="_blank" style="padding: 10px;"><img src="images/discord.png" alt="discord" style="width: 5%; height: 7%;" class="DC"></a>
         <p>Created by Filip Knap with lot of ☕ and ❤️</p>
         <p>© 2025 Knap Filip</p>
     </footer>
