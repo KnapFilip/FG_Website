@@ -89,3 +89,12 @@ div.Gallery3
     float: center;
     text-align: center;
 }
+button.log-reg
+{
+background-color: transparent;
+border: 1.5px solid rgb(255, 255, 255);
+padding: 10px;
+font-size: large;
+color: white;
+border-radius: 15px;
+}
