@@ -40,8 +40,6 @@ li{
     float: center;
     padding: 15px;
     color: rgb(255, 255, 255);
-    border-right: 2px solid rgb(255, 255, 255);
-    border-left: 2px solid rgb(255, 255, 255);
     width: 100%;
 }
 li a{
