@@ -1,6 +1,5 @@
 header{
-    background-color: radial-gradient(circle, rgb(90, 0, 0) 0%, rgba(0,0,0,1) 100%, rgba(255,255,255,1) 100%);
-    background: radial-gradient(circle, rgba(90,0,0,1) 0%, rgba(0,0,0,1) 100%, rgba(255,255,255,1) 100%);
+    background-color: transparent;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 10px;
@@ -41,15 +40,15 @@ li{
     display: inline;
     float: center;
     padding: 15px;
-    width: 100%;
     color: rgb(255, 255, 255);
+    width: 100%;
 }
 li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: large;
-    font-size: 25px;
     width: 100%;
+    font-size: 25px;
 }
 li a:hover{
     text-decoration: underline overline;
@@ -67,27 +66,34 @@ footer
     float: inline-end;
     text-align: center;
     width: 100%;
+    margin: 2%;
 }
-div.Gallery1 
-{ 
+div.Web_Knap
+{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
     width: 100%;
-    display: center;
-    float: center;
     text-align: center;
 }
-div.Gallery2 
-{ 
+div.Web_LE
+{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
     width: 100%;
-    display: center;
-    float: center;
     text-align: center;
 }
-div.Gallery3
-{ 
+div.G_GC_Tabulky
+{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
     width: 100%;
-    display: center;
-    float: center;
     text-align: center;
+}
+a{
+    color: rgb(87, 75, 255);
+    text-decoration: underline-;
+    width: 100%;
+    font-size: 20px;
 }
 button.log-reg
 {

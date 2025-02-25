@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="images/logo.png">
-    <link rel="stylesheet" href="css/style_contact.css">
+    <link rel="stylesheet" href="css/contact.css">
     <title>Kontakt</title>
     <link rel="icon" type="image/png" href="images/logo_FG.png">
 </head>
@@ -17,8 +17,8 @@
             <li><a href="Projects.html">Projekty</a></li>
             <li><a href="Contact.html">Kontakt</a></li>
             <li><a href="E-Shop.html">E-shop</a></li>
-            <button class="log-reg" style="margin: 1%;"><a href="https://filasgaming.github.io/FG_Dashboard/login" style="color: rgb(255, 255, 255); text-decoration: none;">Přihlásit se</a></button>
-            <button class="log-reg"><a href="https://filasgaming.github.io/FG_Dashboard/registration" style="color: rgb(255, 255, 255); text-decoration: none;" >Vytvořit účet</a></button>
+            <button class="log-reg" style="margin: 1%;" hidden><a href="https://filasgaming.github.io/FG_Dashboard/login" style="color: rgb(255, 255, 255); text-decoration: none;">Přihlásit se</a></button>
+            <button class="log-reg" hidden><a href="https://filasgaming.github.io/FG_Dashboard/registration" style="color: rgb(255, 255, 255); text-decoration: none;" >Vytvořit účet</a></button>
         </ul>
     </nav>
 </header>
@@ -38,7 +38,6 @@
         </div>
         <div class="DC">
             <h2>Discord</h2>
-            <p style="color: white;"><a href="https://discord.gg/Msv22AUx3m" target="_blank">Připojit se</a></p>
             <a href="https://discord.gg/Msv22AUx3m"><img src="images/discord.png" alt="discord" style="width: 15%; height: 15%;" class="DC"></a><br>
             <h3>Připoj se na náš discord</h3>
             <button><a href="https://discord.gg/Msv22AUx3m" style="color: rgb(255, 255, 255);">Připojit se</a></button><br>
@@ -47,9 +46,8 @@
         <div class="Email">
             <h2>Email</h2>
             <p>Email: <a href="mailto:KnapFilip@email.cz">KnapFilip@email.cz</a><br>
-                Předmět: Objednávka
                 <h2>Kontaktní formulář</h2>
-        <form action="https://formsubmit.co/KnapFilip@email.cz" method="post" class="Contact">
+        <form action="https://formspree.io/f/mnnjkqyd" method="post" class="Contact">
             <label for="Name">Jméno</label><br>
             <input type="text" id="Name" name="Name" required><br>
             <label for="Surname">Příjmení</label><br>
@@ -59,15 +57,10 @@
             <label for="Other_contact">Další kontakt</label><br>
             <p style="color: white; font-size: 15px;">Pokud máte zájem o komunikaci přes něco jiného než email, zde můžete tento kontakt vypsat. Vždy zašlete i odkaz pokud možné. (Instagram, discord)</p>
             <textarea type="text" id="Other_contact" name="Other_contact"></textarea><br> 
-            <label for="interest">O co máte zájem</label><br>
-            <input type="checkbox" id="web" name="web" value="web">
-            <label for="web">Website</label><br>
-            <input type="checkbox" id="Discord" name="Discord" value="Discord">
-            <label for="Discord">Discord</label><br>
-            <input type="checkbox" id="Tabulky" name="Tabulky" value="Tabulky">
-            <label for="Tabulky">Tabulky</label><br>
-            <label for="message">Další informace</label><br>
+            <label for="message">Zpráva</label><br>
             <textarea id="message" name="message"></textarea><br>
+            <input type="checkbox" id="gdpr" name="gdpr" required>
+            <label for="gdpr"><a href="other/GDPR.pdf" target="_blank" style="text-decoration: underline;">Souhlasím se zpracování osobních údajů</a></label><br><br>
             <input type="submit" value="Odeslat" style="cursor: pointer;">
         </form>
             </p>
