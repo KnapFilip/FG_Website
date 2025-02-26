@@ -89,6 +89,13 @@ div.G_GC_Tabulky
     width: 100%;
     text-align: center;
 }
+div.Web_Logmodel
+{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+}
 a{
     color: rgb(87, 75, 255);
     text-decoration: underline-;
