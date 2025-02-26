@@ -16,7 +16,7 @@
             <li><a href="Me.html">O mě</a></li>
             <li><a href="Projects.html">Projekty</a></li>
             <li><a href="Contact.html">Kontakt</a></li>
-            <li><a class="active" href="E-Shop.html">E-shop</a></li>
+            <li><a class="active" href="eshop.html">E-shop</a></li>
             <button class="log-reg" style="margin: 1%;" hidden><a href="https://filasgaming.github.io/FG_Dashboard/login" style="color: rgb(255, 255, 255); text-decoration: none;">Přihlásit se</a></button>
             <button class="log-reg" hidden><a href="https://filasgaming.github.io/FG_Dashboard/registration" style="color: rgb(255, 255, 255); text-decoration: none;" >Vytvořit účet</a></button>
         </ul>
@@ -106,27 +106,74 @@
             <label for="phone" id="phone">předvolba + Telefon</label><br>
             <input type="tel" id="phone" name="phone" required><br>
             <h3>Objednávka</h3>
-            <input type="checkbox" id="web_order" name="web_order" value="web_order" onclick="toggleInputs('web_order','web_inputs')">Webové stránky <br>
-            <input type="checkbox" id="discord_order" name="discord_order" value="discord_order" onclick="toggleInputs('discord_order','discord_inputs')"> Discord server <br>
-            <input type="checkbox" id="sheets_order" name="sheets_order" value="sheets_order" onclick="toggleInputs('sheets_order','sheets_inputs')"> Tabulky <br>
-                <div id="web_inputs" class="hidden">
-                    <h3>Test</h3>
-                </div>
-                <div id="discord_inputs" class="hidden">
-                    <h3>Test</h3>
+            <div class="order">
+                <div class="web_form">
+                    <input type="checkbox" id="web" onclick="toggleInputs('web', 'web-inputs')">
+                    <label for="web">Webové stránky</label><br>
+                
+                    <div id="web-inputs" class="hidden">
+                        <label for="web_type">Typ webu</label><br>
+                        <select name="web_type" id="web_type">
+                            <option value="static">Statický</option>
+                            <option value="dynamic">Dynamický</option>
+                        </select><br>
+                        <label for="web_use">Hlavní využití webu</label><br>
+                        <input type="text" id="use" name="use"><br>
+                        <label for="web_colors">Nahrajte barevné schéma které by jste chtěly na webu použít. doporučené generátory <a href="https://color.adobe.com/cs/create/color-wheel">Adobe</a> nebo <a href="https://paletton.com/#uid=7000u0kgZ7Gfpg6g0bMlgavoSc2">Palleton</a>vždy nahrajte jpg s kody. <br>Pokud nevíte pouze vypište pouze barvy a já vám vytvořím návrhy.</label><br>
+                        <input type="file" id="colors" name="colors"><br>
+                        <input type="text" id="colors" name="colors"><br>
+                        <label for="web_pages">Jaké stránky by jste na webu potřebovali?</label><br>
+                        <input type="text" id="pages" name="pages" placeholder="úvod, o nás atd..."><br>
+                        <label for="web_functions"><h3> </h3></label><br>
+                        <input type="checkbox" id="login" name="login"><label for="login">Login/registrace formulář +100kč</label><br>
+                        <input type="checkbox" id="admin" name="admin"><label for="admin">Admin page +200kč</label><br>
+                        <input type="checkbox" id="shop" name="shop"><label for="shop">E-shop +500kč</label><br>
+                        <input type="checkbox" id="blog" name="blog"><label for="blog">Blog +200kč</label><br>
+                        <input type="checkbox" id="db" name="db"><label for="db">Propojení s databází +50kč</label><br>
+                        <input type="checkbox" id="hosting" name="hosting"><label for="hosting">Zajištění hostingu. Cena hostingu + 50kč</label><br>
+                        <input type="checkbox" id="domain" name="domain"><label for="domain">Zajištění domény. Cena domény + 50kč</label><br>
+                        <input type="checkbox" id="contact_form" name="contact_form"><label for="contact_form">Kontaktní formulář 50 kč</label><br>
+                        <input type="checkbox" id="other" name="other"><label for="other">Jiné +100kč (Jedna věc = +100kč)</label><br>
+                        <textarea name="other" id="other"></textarea><br>
+                    </div>
+                    <label for="suptotal">Mezi součet</label><br>
+                    <input type="text" id="subtotal" name="subtotal" readonly>
+                </div><br><br>
+                <div class="dc_form">
+                    <input type="checkbox" id="dc" onclick="toggleInputs('dc', 'dc-inputs')">
+                    <label for="dc">Discord</label><br>
+                    <div id="dc-inputs" class="hidden">
 
-                </div>
-                <div id="sheets_inputs" class="hidden">
-                    <h3>Test</h3>
 
-                </div>
+                    </div>
+                    <label for="suptotal">Mezi součet</label><br>
+                    <input type="text" id="subtotal" name="subtotal" readonly>
+                </div><br><br>
+                <div class="sheets_form">
+                    <input type="checkbox" id="sheets" onclick="toggleInputs('sheets', 'sheets-inputs')">
+                    <label for="sheets">Tabulky</label><br>
+                    <div id="sheets-inputs" class="hidden">
 
-            <label for="message" id="message">Speciální požadavky</label><br>
-            <textarea name="message" id="message"></textarea><br>
-            <input type="checkbox" id="gdpr" name="gdpr" required><label for="gdpr"><a href="other/GDPR.pdf">Souhlasím se zpracováním osobních údajů</a></label><br>
-            <input type="checkbox" id="vos" name="vos" required><label for="vos"><a href="other/obchodni-podminky.pdf">Souhlasím s všeobecnými obchodními podmínkamy</a></label><br><br>
+                        
+                    </div>
+                    <label for="suptotal">Mezi součet</label><br>
+                    <input type="text" id="subtotal" name="subtotal" readonly>
+                </div>
+            </div>
+            <h3>Platba</h3>
+            <label for="payment">Způsob platby</label><br>
+            <select name="payment" id="payment"><br>
+                <option value="bank">Převodem</option><br>
+                <option value="paypal">Paypal</option><br>
+            </select>
+            <br><input type="checkbox" id="gdpr" name="gdpr" required>
+            <label for="gdpr"><a href="other/GDPR.pdf">Souhlasím se zpracováním osobních údajů</a></label><br>
+            
+            <input type="checkbox" id="vos" name="vos" required>
+            <label for="vos"><a href="other/obchodni-podminky.pdf">Souhlasím s všeobecnými obchodními podmínkami</a></label><br><br>
+            
             <input type="submit" value="Odeslat objednávku">
-
+            
         </form>
     </div>
 </body>
@@ -138,3 +185,5 @@
         <p>© 2025 Knap Filip</p>
     </footer>
 </html>
+
+<script src="JS/checkbox.js"></script>
