@@ -17,6 +17,7 @@
             <li><a href="Projects.html">Projekty</a></li>
             <li><a href="Contact.html">Kontakt</a></li>
             <li><a class="active" href="eshop.html">E-shop</a></li>
+            <li><a href="price_page.html">Ceník</a></li>
             <button class="log-reg" style="margin: 1%;" hidden><a href="https://filasgaming.github.io/FG_Dashboard/login" style="color: rgb(255, 255, 255); text-decoration: none;">Přihlásit se</a></button>
             <button class="log-reg" hidden><a href="https://filasgaming.github.io/FG_Dashboard/registration" style="color: rgb(255, 255, 255); text-decoration: none;" >Vytvořit účet</a></button>
         </ul>
@@ -32,46 +33,9 @@
                 <p>Vítejte na mém E-shopu. V aktuální chvíli nabízím tři služby a to je tvorba webu HTML, CSS, PHP, Javascriptu a databází (MySQL), tvorba discord serveru a tvorba tabulek (Google sheets a Excel) vše na míru podle toho co si budete přát.</p>
                 <br>
                 <p>Přijímám aktuálně další práci: <img src="images/yes.png" alt="Ano" width="20px" height="20px"></p>
-                <p>Termín dodání: Vždy podle domluvi při objednávce</p>
+                <p>Termín dodání: Mezi 2 až 8 týdny</p>
                 <p>Všechny objednávky jsou řešeny přes discord nebo email. Do budoucna bude možnost přímo na webu</p>
         </div> 
-        <div class="cenik">
-                <h3>Ceník</h3>
-                <table>
-                    <tr>
-                        <th>Název služby</th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Tvorba webu</td>
-                        <td>od 500 Kč</td>
-                    </tr>
-                    <tr>
-                        <td>Tvorba discord serveru</td>
-                        <td>od 100 Kč</td>
-                    </tr>
-                    <tr>
-                        <td>Tvorba tabulek</td>
-                        <td>od 250 Kč</td>
-                    </tr>
-                    <tr>
-                        <td>Administrace vytvoření služby</td>
-                        <td>50 Kč měsíčně do zrušení</td>
-                    </tr>
-                    <tr>
-                        <td>Pomoc při výběru hostingu</td>
-                        <td>Zdarma</td>
-                    </tr>
-                    <tr>
-                        <td>Zajištění hostingu. U externí společnsoti podle výběru (helkor.cz / vedos.cz)</td>
-                        <td>Podle ceny hostingu + 50Kč</td>
-                    </tr>
-                    <tr>
-                        <td>Zajištění domeny a nastavení <br> (Externí dodavatel)</td>
-                        <td>Cena podle ceny domény + 50Kč (Doména na rok)</td>
-                    </tr>
-                </table>
-        </div>
     </div>
     <br>
     <br>
@@ -98,13 +62,15 @@
         <form action="" method="post" class="Contact">
             <h3>Kontaktní údaje</h3>
             <label for="name" id="name">Jméno</label><br>
-            <input type="text" id="name" name="name" required><br>
+            <input type="text" id="name" name="name" required placeholder="Filip"><br>
             <label for="surname" id="surname">Příjmení</label><br>
-            <input type="text" id="surname" name="surname" required><br>
+            <input type="text" id="surname" name="surname" required placeholder="Knap"><br>
             <label for="email" id="email">Email</label><br>
-            <input type="email" id="email" name="email" required><br>
+            <input type="email" id="email" name="email" required placeholder="KnapFilip@email.cz"><br>
             <label for="phone" id="phone">předvolba + Telefon</label><br>
-            <input type="tel" id="phone" name="phone" required><br>
+            <input type="tel" id="phone" name="phone" required placeholder="+420 731 XXX 329"><br>
+            <label for="address" id="address">Adresa</label><br>
+            <input type="text" id="address" name="address" required placeholder="Ulice, Číslo popisné, Město, směrovací číslo" style="font-size: medium;"><br>
             <h3>Objednávka</h3>
             <div class="order">
                 <div class="web_form">
@@ -132,7 +98,7 @@
                         <input type="checkbox" id="hosting" name="hosting"><label for="hosting">Zajištění hostingu. Cena hostingu + 50kč</label><br>
                         <input type="checkbox" id="domain" name="domain"><label for="domain">Zajištění domény. Cena domény + 50kč</label><br>
                         <input type="checkbox" id="contact_form" name="contact_form"><label for="contact_form">Kontaktní formulář s propojením na email 50 kč</label><br>
-                        <input type="checkbox" id="other" name="other"><label for="other">Jiné +100kč (Jedna věc = +100kč)</label><br>
+                        <input type="checkbox" id="other" name="other"><label for="other">Jiné +100kč (Jedna věc = +100kč) <br>(Každý požadavek odělenova pomocí ",". např: Katalog, fotogalerie, atd...)</label><br>
                         <textarea name="other" id="other"></textarea><br>
                     </div>
                     <label for="suptotal">Mezi součet</label><br>
@@ -165,11 +131,12 @@
                 <option value="bank">Převodem</option><br>
                 <option value="paypal">Paypal</option><br>
             </select>
+            <p>Cena na faktuře se může lišit pokud dojde k špatnému zadání do objednávky především do textových polích s volnou možností psaní. O tomto budete vždy informování a na faktuře a v emailu uvedeno vysvětlení.</p>
             <br><input type="checkbox" id="gdpr" name="gdpr" required>
-            <label for="gdpr"><a href="other/GDPR.pdf">Souhlasím se zpracováním osobních údajů</a></label><br>
+            <label for="gdpr"><a href="other/GDPR.pdf" target="_blank">Souhlasím se zpracováním osobních údajů</a></label><br>
             
             <input type="checkbox" id="vos" name="vos" required>
-            <label for="vos"><a href="other/obchodni-podminky.pdf">Souhlasím s všeobecnými obchodními podmínkami</a></label><br><br>
+            <label for="vos"><a href="other/obchodni-podminky.pdf" target="_blank">Souhlasím s všeobecnými obchodními podmínkami</a></label><br><br>
             
             <input type="submit" value="Odeslat objednávku">
             
@@ -186,3 +153,4 @@
 </html>
 
 <script src="JS/checkbox.js"></script>
+<script src="JS/prices.js"></script>

@@ -186,30 +186,30 @@ label
     font-size: 20px;
     font-family: 'Arial';
 }
-/* Styl pro select - použití appearance pro zajištění kompatibility */
-select {
+select
+{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Arial';
     border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
-    background-color: rgb(61, 1, 1);
+    background-color: rgb(107, 107, 107);
     text-align: center;
     width: 25%;
     margin: 5px;
-    appearance: none; /* Skryje nativní vzhled selectu */
-    -webkit-appearance: none; /* Pro webkit prohlížeče */
-    -moz-appearance: none; /* Pro Firefox */
 }
-
-/* Styl pro option - styly budou omezené, ale změna textu je možná */
-option {
+option
+{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Arial';
-    background-color: rgb(61, 1, 1);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(107, 107, 107);
+    text-align: center;
+    width: 25%;
+    margin: 5px;
 }
-
 textarea
 {
     color: rgb(255, 255, 255);
@@ -252,4 +252,14 @@ input[type="checkbox"]:checked {
 input[type="checkbox"]:not(:checked) {
     background-color: #f44336;
     border-color: #f44336;
+}
+select {
+    font-size: 20px;
+    font-family: 'Arial';
+    background-color: transparent;
+}
+option {
+    font-size: 20px;
+    font-family: 'Arial';
+    background-color: transparent;
 }
