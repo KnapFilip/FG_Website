@@ -46,11 +46,6 @@
             <h3>Web</h3>
                 <p>Tvorba webu v HTML, CSS, PHP, Javascriptu a databází (MySQL) na míru. Všechny věci s vámi zkonzultuji a případně vám poradím jak to udělat jinak nebo efektivněji.</p>
         </div>
-        <div class="discord">
-            <h3>Discord server</h3>
-                <p>Tvorba discord serveru na míru s integrací botů a jejich nastavením.</p>
-            
-        </div>
         <div class="tabulky">
             <h3>Tabulky</h3>
                 <p>Tvorba tabulek v Google sheets a Excel s použitím funkcí a u google sheets také google script.</p>
@@ -75,9 +70,11 @@
             <div class="order">
                 <div class="web_form">
                     <input type="checkbox" id="web" onclick="toggleInputs('web', 'web-inputs')">
-                    <label for="web">Webové stránky</label><br>
+                    <label for="web">Webové stránky 1500kč (základ)</label><br>
                 
                     <div id="web-inputs" class="hidden">
+                        <label for="web_name">Jméno webu</label><br>
+                        <input type="text" id="web_name" name="web_name"><br>
                         <label for="web_type">Typ webu</label><br>
                         <select name="web_type" id="web_type">
                             <option value="static">Statický</option>
@@ -88,6 +85,10 @@
                         <label for="web_colors">Nahrajte barevné schéma které by jste chtěly na webu použít. doporučené generátory <a href="https://color.adobe.com/cs/create/color-wheel">Adobe</a> nebo <a href="https://paletton.com/#uid=7000u0kgZ7Gfpg6g0bMlgavoSc2">Palleton</a>vždy nahrajte jpg s kody. <br>Pokud nevíte pouze vypište pouze barvy a já vám vytvořím návrhy.</label><br>
                         <input type="file" id="colors" name="colors"><br>
                         <input type="text" id="colors" name="colors"><br>
+                        <label for="web_images">Nahrajte obrázky které by jste chtěli na webu použít.</label><br>
+                        <input type="file" id="images" name="images"><br>
+                        <label for="logo">Nahrajte vaše logo</label><br>
+                        <input type="file" id="logo" name="logo"><br>
                         <label for="web_pages">Jaké stránky by jste na webu potřebovali?</label><br>
                         <input type="text" id="pages" name="pages" placeholder="úvod, o nás atd..."><br>
                         <label for="web_functions"><h3> </h3></label><br>
@@ -98,32 +99,24 @@
                         <input type="checkbox" id="hosting" name="hosting"><label for="hosting">Zajištění hostingu. Cena hostingu + 50kč</label><br>
                         <input type="checkbox" id="domain" name="domain"><label for="domain">Zajištění domény. Cena domény + 50kč</label><br>
                         <input type="checkbox" id="contact_form" name="contact_form"><label for="contact_form">Kontaktní formulář s propojením na email 50 kč</label><br>
-                        <input type="checkbox" id="other" name="other"><label for="other">Jiné +100kč (Jedna věc = +100kč) <br>(Každý požadavek odělenova pomocí ",". např: Katalog, fotogalerie, atd...)</label><br>
+                        <input type="checkbox" id="other" name="other"><label for="other">Jiné +100kč (Jedna věc = +100kč) <br>(Každý požadavek oddělovat pomocí ",". např: Katalog, fotogalerie, atd...)</label><br>
                         <textarea name="other" id="other"></textarea><br>
+                        <label for="other_info">Cokoliv dalšího co by jste chtěli sdělit</label><br>
+                        <textarea name="other_info" id="other_info"></textarea><br>
                     </div>
-                    <label for="suptotal">Mezi součet</label><br>
-                    <input type="text" id="subtotal" name="subtotal" readonly>
+
+                    <label for="subtotal_web">Mezi součet</label><br>
+                    <input type="text" id="subtotal_web" name="subtotal_web" readonly>
                 </div><br><br>
-                <div class="dc_form">
-                    <input type="checkbox" id="dc" onclick="toggleInputs('dc', 'dc-inputs')">
-                    <label for="dc">Discord</label><br>
-                    <div id="dc-inputs" class="hidden">
-
-
-                    </div>
-                    <label for="suptotal">Mezi součet</label><br>
-                    <input type="text" id="subtotal" name="subtotal" readonly>
-                </div><br><br>
-                <div class="sheets_form">
-                    <input type="checkbox" id="sheets" onclick="toggleInputs('sheets', 'sheets-inputs')">
-                    <label for="sheets">Tabulky</label><br>
-                    <div id="sheets-inputs" class="hidden">
-
+                
+                <div class="sheet_form">
+                    <input type="checkbox" id="sheet" onclick="toggleInputs('sheet','sheet-inputs')">
+                    <label for="sheet">Google Sheets</label><br>
+                    <div id="sheet-inputs" class="hidden">
+                        <label for="sheet_name">Název tabulky</label><br>
+                        <input type="text" id="sheet_name" name="sheet_name" required><br>
                         
                     </div>
-                    <label for="suptotal">Mezi součet</label><br>
-                    <input type="text" id="subtotal" name="subtotal" readonly>
-                </div>
             </div>
             <h3>Platba</h3>
             <label for="payment">Způsob platby</label><br>

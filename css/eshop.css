@@ -97,17 +97,8 @@ div.web
     color: rgb(255, 255, 255);
     font-family: 'Arial';
     display: inline-block;
-    float: center;
-    width: 33%;
-    border: 2px solid rgb(110, 110, 110);
-}
-div.discord
-{
-    color: rgb(255, 255, 255);
-    font-family: 'Arial';
-    display: inline-block;
     float: left;
-    width: 33%;
+    width: 49%;
     border: 2px solid rgb(110, 110, 110);
 }
 div.tabulky
@@ -117,7 +108,7 @@ div.tabulky
     text-align: center;
     display: inline-block;
     float: right;
-    width: 33%;
+    width: 49%;
     border: 2px solid rgb(110, 110, 110);
 }
 div.contact
