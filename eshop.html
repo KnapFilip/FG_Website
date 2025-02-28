@@ -30,7 +30,7 @@
     <div class="eshop">
         <div class="uvod">
                 <h2>E-Shop</h2>
-                <p>Vítejte na mém E-shopu. Kde si můžete objednat tvorbu webu a to v HTML, CSS, PHP, Javascriptu a databází (MySQL) vše na míru podle toho co si budete přát.</p>
+                <p>Vítejte na mém E-shopu. Kde si můžete objednat tvorbu webu a to v HTML, CSS, PHP, Javascriptu a databází (MySQL) <br> vše na míru podle toho co si budete přát.</p>
                 <br>
                 <p>Přijímám aktuálně další práci: <img src="images/yes.png" alt="Ano" width="20px" height="20px"></p>
                 <p>Termín dodání: Mezi 2 až 8 týdny</p>
@@ -41,7 +41,7 @@
     <br>
     <div class="sluzby">
         <h2>Nabízené služby</h2>
-        <p>Pokud máte zájem o jakoukoliv službu níže stačí mě kontaktovat přes <a href="Contact.html">kontakty</a> a nebo přes objednávkový formulář níže.</p>
+        <p>Pokud máte zájem o jakoukoliv službu níže stačí mě kontaktovat přes objednávkový formulář níže.</p>
         <div class="web">
             <h3>Web</h3>
                 <p>Tvorba webu v HTML, CSS, PHP, Javascriptu a databází (MySQL) na míru. Všechny věci s vámi zkonzultuji a případně vám poradím jak to udělat jinak nebo efektivněji.</p>
@@ -49,7 +49,7 @@
     </div>
     <div class="order_form">
         <h2>Objednávkový formulář</h2>
-        <form action="" method="post" class="Contact">
+        <form action="php/order.php" method="post" class="Contact" enctype="multipart/form-data">
             <h3>Kontaktní údaje</h3>
             <label for="name" id="name">Jméno</label><br>
             <input type="text" id="name" name="name" required placeholder="Filip"><br>
@@ -111,7 +111,7 @@
                 <option value="bank">Převodem</option><br>
                 <option value="paypal">Paypal</option><br>
             </select>
-            <p>Cena na faktuře se může lišit pokud dojde k vyplnění objednávky především do textových polích s volnou možností psaní. O této změně budete vždy informování a to na faktuře a v emailu a bude vždy uvedeno vysvětlení.</p>
+            <p>Cena na faktuře se může lišit pokud dojde k vyplnění objednávky především do textových polích s volnou možností psaní. <br> O této změně budete vždy informování a to na faktuře a v emailu a bude vždy uvedeno vysvětlení.</p>
             <br><input type="checkbox" id="gdpr" name="gdpr" required>
             <label for="gdpr"><a href="other/GDPR.pdf" target="_blank">Souhlasím se zpracováním osobních údajů</a></label><br>
             

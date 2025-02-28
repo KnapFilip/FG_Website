@@ -66,7 +66,6 @@ footer
     float: inline-end;
     text-align: center;
     width: 100%;
-    margin: 2%;
 }
 div.uvod
 {
@@ -97,7 +96,7 @@ div.web
     color: rgb(255, 255, 255);
     font-family: 'Arial';
     display: inline-block;
-    width: 100%;
+    width: 75%;
     border: 2px solid rgb(110, 110, 110);
 }
 div.tabulky

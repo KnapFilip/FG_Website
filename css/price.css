@@ -66,7 +66,6 @@ footer
     float: inline-end;
     text-align: center;
     width: 100%;
-    margin: 2%;
 }
 div.uvod
 {
@@ -160,13 +159,15 @@ td
 }
 table
  {
-    width: 100%;
+    width: 50%;
     border-collapse: collapse;
     border-bottom: 2px solid rgb(255, 255, 255);
     border-top: 2px solid rgb(255, 255, 255);
     border-left: 2px solid rgb(255, 255, 255);
     border-right: 2px solid rgb(255, 255, 255);
-    float: right;
+    text-align: center;
+    margin: auto;
+
 }
 input
 {
