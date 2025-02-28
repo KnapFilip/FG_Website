@@ -244,3 +244,6 @@ input[type="checkbox"]:not(:checked) {
     background-color: #f44336;
     border-color: #f44336;
 }
+input[type="submit"] {
+    cursor: pointer;
+}
