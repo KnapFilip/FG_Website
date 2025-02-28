@@ -96,6 +96,13 @@ div.Web_Logmodel
     width: 100%;
     text-align: center;
 }
+div.Web_Knap_Dashboard
+{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+}
 a{
     color: rgb(87, 75, 255);
     text-decoration: underline-;

@@ -97,8 +97,7 @@ div.web
     color: rgb(255, 255, 255);
     font-family: 'Arial';
     display: inline-block;
-    float: left;
-    width: 49%;
+    width: 100%;
     border: 2px solid rgb(110, 110, 110);
 }
 div.tabulky

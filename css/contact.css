@@ -106,17 +106,6 @@ width: 100%;
 a:link 
 {
     color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-a:link:visited 
-{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-a:active 
-{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
 }
 button
 {
