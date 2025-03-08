@@ -19,9 +19,10 @@ h1{
 }
 h2{ 
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 150px;
     font-family: 'Arial';
     margin: 15px;
+    text-align: center;
 }
 h3{ 
     color: rgb(255, 255, 255);
@@ -46,9 +47,9 @@ li{
 li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+    width: 100%;
     font-size: large;
     font-size: 25px;
-    width: 100%;
 }
 li a:hover{
     text-decoration: underline overline;
@@ -58,18 +59,80 @@ li a:hover{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
+div.uvod
+{
+    display: inline-block;
+    float: left;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 15px;
+    margin: 25px;
+    width: 45%;
+    text-align: justify;
+}
+div.prace
+ {
+    display: inline-block;
+    float: right;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 15px;
+    margin: 25px;
+    width: 45%;
+    text-align: justify;
+}
+div.ja
+ {
+    display: inline-block;
+    float: left;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 15px;
+    margin: 25px;
+    width: 45%;
+    text-align: justify;
+}
+div.projects
+ {
+    display: inline-block;
+    float: right;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 15px;
+    margin: 25px;
+    width: 45%;
+    text-align: justify;
+}
+button.tlja
+{
+background-color: transparent;
+color: rgb(255, 255, 255);
+border: 2px solid rgb(110, 110, 110);
+font-size: large;
+border-radius: 15px;
+padding: 5px;
+cursor: pointer;
+display: inline-block;
+float: right;
+width: 100%;
+}
+button.tlprojects
+{
+background-color: transparent;
+color: rgb(255, 255, 255);
+border: 2px solid rgb(110, 110, 110);
+font-size: large;
+border-radius: 15px;
+padding: 5px;
+cursor: pointer;
+display: inline-block;
+float: right;
+width: 100%;
+}
 footer
 {
-    color: rgb(255, 255, 255);
-    font-size: 2px;
-    font-family: 'Arial';
-    float: inline-end;
-    text-align: center;
-    width: 100%;
-}
-img
-{
-    border-radius: 15px;
+color: rgb(255, 255, 255);
+font-size: 2px;
+font-family: 'Arial';
+float: inline-end;
+text-align: center;
+width: 100%;
 }
 button.log-reg
 {
@@ -82,43 +145,4 @@ border-radius: 15px;
 }
 .active{
     text-decoration: underline;
-}
-div.me {
-    margin-top: 25px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 sloupce */
-    grid-template-rows: repeat(3, auto); /* 3 řady */
-    gap: 20px; /* Mezery mezi prvky */
-    width: 100%;
-    text-align: center;
-}
-
-div.info,
-div.Code,
-div.Plan,
-div.use {
-    border: 2px solid rgb(110, 110, 110);
-    border-radius: 15px;
-    padding: 20px;
-    text-align: justify;
-    width: 100%; /* Přizpůsobení gridu */
-}
-
-/* div.jafoto bez borderu a na celou šířku */
-div.jafoto {
-    grid-column: span 2; /* Zaberou oba sloupce */
-    text-align: center;
-    padding-left: 0;
-    border: none;
-}
-
-/* ❌ Oprava možných problémů ❌ */
-div.info,
-div.Code,
-div.Plan,
-div.use,
-div.jafoto {
-    margin: 0; /* ❗ Odstranění rušivých marginů */
-    padding: 20px;
-    box-sizing: border-box; /* 🔹 Zabrání přetečení prvků */
 }

@@ -67,41 +67,6 @@ footer
     text-align: center;
     width: 100%;
 }
-div.Web_Knap
-{
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    width: 100%;
-    text-align: center;
-}
-div.Web_LE
-{
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    width: 100%;
-    text-align: center;
-}
-div.G_GC_Tabulky
-{
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    width: 100%;
-    text-align: center;
-}
-div.Web_Logmodel
-{
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    width: 100%;
-    text-align: center;
-}
-div.Web_Knap_Dashboard
-{
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    width: 100%;
-    text-align: center;
-}
 a{
     color: rgb(87, 75, 255);
     text-decoration: underline-;
@@ -119,4 +84,26 @@ border-radius: 15px;
 }
 .active{
     text-decoration: underline;
+}
+div.projects {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 sloupce */
+    grid-template-rows: repeat(3, auto); /* 3 řady */
+    gap: 20px; /* Mezery mezi prvky */
+    width: 100%;
+    text-align: center;
+}
+
+div.Web_Knap,
+div.Web_LE,
+div.G_GC_Tabulky,
+div.Web_Logmodel,
+div.Web_Knap_Dashboard {
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Automatická velikost */
+    box-sizing: border-box;
 }
